@@ -3,4 +3,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* UTILITIES */
+.product {
+    width: 100%;
+    height: 100vh;
+    background-color: #ff0000;
+    position: relative;
+}
+
+.product img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+}
+
+.product > .shoes_description {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    width: 50%;
+    height: 20%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product .shoes_description > h2 {
+    display: block;
+    height: 100%;
+    font-size: 2vw;
+    font-weight: 900;
+    padding: 2%;
+}
+
+.color_yellow {
+    color: #ffff00;
+}
+
+.color_green {
+    color: #008000;
 }
