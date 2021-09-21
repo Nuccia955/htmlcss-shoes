@@ -75,7 +75,6 @@ nav.main_menu {
 
 /* PRODUCT */
 .product {
-    width: 100%;
     height: 100vh;
     position: relative;
 }
@@ -94,9 +93,9 @@ nav.main_menu {
 .product > .shoes_description {
     display: inline-block;
     position: absolute;
-    bottom: 0;
+    bottom: 10%;
     left: 50%;
-    transform: translate(-50%, -10%);
+    transform: translateX(-50%);
     width: 50%;
     height: 20%;
     text-align: center;
@@ -106,8 +105,8 @@ nav.main_menu {
 .product .shoes_description > h2 {
     display: block;
     height: 100%;
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: 900;
-    padding: 2%;
+    line-height: 20vh;
 }
 
