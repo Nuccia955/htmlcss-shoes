@@ -3,14 +3,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* UTILITIES */
+.color_yellow {
+    color: #ffff00;
+}
+
+.color_green {
+    color: #008000;
+}
+
+.bg_red {
+    background-color: #ff0000;
+}
+
+.bg_green {
+    background-color: #008000;
+}
+
+.bg_yellow {
+    background-color: #ffff00;
+}
+
+/* NAV MAIN MENU */
+nav.main_menu {
+    width: 30vw;
+    height: 15vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding: 2vh 2vw;
+    text-align: right;
+    cursor: default;
+}
+
+.main_menu > .list_item {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.main_menu > .list_item > .numbers {
+    display: inline-block;
+    width: 10vh;
+    height: 10vh;
+    margin-left:3vw ;
+    text-align: center;
+}
+
+.main_menu > .list_item >.numbers a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 4vh;
+    font-weight: 900;
+    line-height: 10vh;
+    cursor: pointer;
+}
+
+
+/* PRODUCT */
 .product {
     width: 100%;
     height: 100vh;
-    background-color: #ff0000;
     position: relative;
 }
 
@@ -45,10 +111,3 @@
     padding: 2%;
 }
 
-.color_yellow {
-    color: #ffff00;
-}
-
-.color_green {
-    color: #008000;
-}
