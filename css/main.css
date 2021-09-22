@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 html {
@@ -33,7 +33,7 @@ html {
 
 /* NAV MAIN MENU */
 nav.main_menu {
-    width: 30vw;
+    width: 100%;
     height: 15vh;
     position: fixed;
     z-index: 1;
@@ -67,7 +67,6 @@ nav.main_menu {
     border-radius: 50%;
     text-decoration: none;
     font-size: 4vh;
-    font-weight: 900;
     line-height: 10vh;
     cursor: pointer;
 }
@@ -81,7 +80,7 @@ nav.main_menu {
 
 .product img {
     width: 50%;
-    height: 50%;
+    height: 50vh;
     display: block;
     position: absolute;
     top: 50%;
@@ -93,11 +92,11 @@ nav.main_menu {
 .product > .shoes_description {
     display: inline-block;
     position: absolute;
-    bottom: 10%;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
-    height: 20%;
+    height: 30vh;
     text-align: center;
     text-transform: uppercase;
 }
@@ -106,7 +105,8 @@ nav.main_menu {
     display: block;
     height: 100%;
     font-size: 3vw;
-    font-weight: 900;
-    line-height: 20vh;
+    /* line-height: 20vh; */
+    margin: 0;
+    padding: 0;
 }
 
